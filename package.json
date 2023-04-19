@@ -10,5 +10,10 @@
     "depcheck": "^1.4.3",
     "stylelint": "^15.5.0",
     "stylelint-config-upleveled": "^1.0.2"
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "depcheck@1.4.3": "patches/depcheck@1.4.3.patch"
+    }
   }
 }
